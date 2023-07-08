@@ -7,6 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-tittle{
     color: #181818;
@@ -37,4 +38,18 @@ nav a{
     font-weight: 700;
     color: #ffffff;
     padding: 18px 35px;
+}
+/* Header Releted Style */
+header{
+    background: #ffffff;
+
+}
+.banner{
+    padding:  30px 30px 30px 150px;
+    align-items: center;
+    display: flex;
+}
+.banner .profile{
+    width: 600px;
+    height: 500px;
 }
