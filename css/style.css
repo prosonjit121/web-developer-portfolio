@@ -5,6 +5,8 @@ body{
 /* Nav Styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .nav-tittle{
     color: #181818;
@@ -13,6 +15,7 @@ nav{
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -29,4 +32,9 @@ nav a{
 .primary-btn{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 18px 35px;
 }
