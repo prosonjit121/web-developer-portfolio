@@ -7,7 +7,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 .nav-tittle{
     color: #181818;
@@ -58,6 +58,7 @@ header{
 }
 .banner .profile{
     width: 500px;
+    margin-bottom: ;
     height: 500px;
 }
 .banner-greeting{
@@ -73,7 +74,7 @@ header{
 }
 /* Main Section Styles */
 /* About Section Styles */
-.about{
+section{
     padding: 130px;
     border-right: 10px;
     background: #FFF8F3;
@@ -89,4 +90,16 @@ header{
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
