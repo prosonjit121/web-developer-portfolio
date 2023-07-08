@@ -42,14 +42,51 @@ nav a{
 /* Header Releted Style */
 header{
     background: #ffffff;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 .banner{
-    padding:  30px 30px 30px 150px;
+    padding:  30px 30px 0px 150px;
     align-items: center;
     display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .banner .profile{
-    width: 600px;
+    width: 500px;
     height: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-tittle{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* Main Section Styles */
+/* About Section Styles */
+.about{
+    padding: 130px;
+    border-right: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
