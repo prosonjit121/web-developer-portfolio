@@ -1,0 +1,32 @@
+/* Common Shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* Nav Styles */
+nav{
+    display: flex;
+}
+.nav-tittle{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+/* Overoll Color Button */
+.or{
+    color: #FD6E0A;
+}
+.primary-btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
